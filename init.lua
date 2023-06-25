@@ -46,7 +46,10 @@ vim.cmd ':highlight TabLineFill guibg=#0f0018'
 vim.cmd ':highlight WinBar guibg=#0f0018'
 vim.cmd ':highlight WinBarNC guibg=#0f0018'
 vim.cmd ':highlight stlabb2bf_NONE_bolditalic gui=bold'
-
+vim.cmd ':highlight TelescopeNormal guibg=#0f0018'
+vim.cmd ':highlight TelescopeBorder guibg=#0f0018'
+vim.cmd ':highlight TelescopeSelection guibg=#0f0018'
+vim.cmd ':highlight TelescopePreviewNormal guibg=#0f0018'
 vim.api.nvim_command("hi! def link NvimTree Normal")
 
 -- transparent backgrounds
@@ -62,10 +65,6 @@ vim.api.nvim_create_autocmd("Colorscheme", {
       "PmenuSbar",
       "TabLine",
       "TabLineFill",
-      "TelescopeNormal",
-      "TelescopeBorder",
-      "TelescopeSelection",
-      "TelescopePreviewNormal",
       "WhichKeyFloat",
       "WinSeparator",
     }
